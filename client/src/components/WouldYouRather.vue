@@ -15,7 +15,8 @@ const emit = defineEmits([
     'choice-selected'
 ])
 
-const choice = ref('')
+// use null to prevent both buttons being selected
+const choice = ref(null)  // null = no value
 
 function choiceMade() {
   // console.log(choice.value)
