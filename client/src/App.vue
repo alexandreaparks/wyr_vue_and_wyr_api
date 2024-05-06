@@ -37,7 +37,7 @@ function updateUserSelection(userChoice) {  // argument is choice in the Child c
 
   <div id="app-component">
 
-    <h1>Would You Rather...</h1>
+    <h1>Hi! Would You Rather...</h1>
 
     <!--v-bind links data in Parent component to Child props-->
     <!--the Child prop 'question' binds to the Parent 'wyrQuestion'-->
